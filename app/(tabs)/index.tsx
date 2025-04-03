@@ -76,7 +76,7 @@ export default function Index() {
                             data={movies}
                             renderItem={({item}) => (
                                 <MovieCard
-                                    id={0}
+                                    id={item.id}
                                     title={item.title}
                                     adult={item.adult}
                                     backdrop_path={item.backdrop_path}
